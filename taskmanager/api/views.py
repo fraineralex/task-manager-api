@@ -91,3 +91,4 @@ def next(request):
         "data_bus": bits,
         "total_memory": total_ram_memory_gb
     })
+    
