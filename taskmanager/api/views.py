@@ -75,7 +75,7 @@ def cpu_variables(request):
         "uptime": uptime_seconds
     })
 
-def next(request):
+""" def next(request):
     processor = platform.processor()
     physical_cores = psutil.cpu_count(logical=False)
     threads_qty = psutil.cpu_count(logical=True)
@@ -90,4 +90,4 @@ def next(request):
         "threads": threads_qty,
         "data_bus": bits,
         "total_memory": total_ram_memory_gb
-    })
+    }) """
