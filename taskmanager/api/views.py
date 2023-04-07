@@ -54,7 +54,7 @@ def cpu_constants(request):
     })
 
 def cpu_variables(request):
-    cpu_usage = psutil.cpu_percent(interval=60)
+    cpu_usage = psutil.cpu_percent(interval=1)
     speed = psutil.cpu_freq().current / 1000
     process_qty = len(psutil.pids())
     sub_process_qty = 0

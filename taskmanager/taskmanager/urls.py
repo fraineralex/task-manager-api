@@ -20,5 +20,5 @@ from api.views import default, cpu_constants, cpu_variables
 urlpatterns = [
     path('', default, name='default'),
     path('api/cpu-constants', cpu_constants, name='cpu_constants'),
-    path('api/cpu_variables', cpu_variables, name='cpu_variables')
+    path('api/cpu-variables', cpu_variables, name='cpu_variables')
 ]
